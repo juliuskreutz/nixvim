@@ -12,6 +12,7 @@
     ./lualine.nix
     ./markdown-preview.nix
     ./neogit.nix
+    ./oil-git-status.nix
     ./oil.nix
     ./sleuth.nix
     ./spectre.nix
