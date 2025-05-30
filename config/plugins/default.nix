@@ -4,6 +4,7 @@
     ./autopairs.nix
     ./cmp.nix
     ./conform.nix
+    ./copilot.nix
     ./crates.nix
     ./fidget.nix
     ./gitsigns.nix
