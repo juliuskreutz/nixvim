@@ -7,7 +7,6 @@
       event = "InsertEnter";
       opts = {
         suggestion = {
-          auto_trigger = true;
           keymap = {
             next = "<M-n>";
             prev = "<M-p>";
