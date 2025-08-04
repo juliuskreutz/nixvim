@@ -20,7 +20,7 @@ In your home manager config
 }:
 {
   imports = [
-    inputs.nixvim.homeManagerModules.nixvim
+    inputs.nixvim.homeModules.nixvim
   ];
 }
 ```

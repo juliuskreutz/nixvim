@@ -8,7 +8,7 @@
   };
 
   outputs = inputs: {
-    homeManagerModules = rec {
+    homeModules = rec {
       default = import ./default.nix { inherit inputs; };
       nixvim = default;
     };
