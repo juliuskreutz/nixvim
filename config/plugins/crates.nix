@@ -22,24 +22,7 @@
           completion = true;
           hover = true;
         };
-        completion = {
-          cmp = {
-            enabled = true;
-          };
-        };
       };
-      config =
-        # lua
-        ''
-          function(_, opts)
-            require("crates").setup(opts)
-
-            local cmp = require("cmp")
-            local config = cmp.get_config()
-            table.insert(config.sources, { name = "crates" })
-            cmp.setup(config)
-          end
-        '';
     }
   ];
 }
