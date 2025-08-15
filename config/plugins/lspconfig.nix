@@ -40,7 +40,7 @@
               };
             };
           };
-          pyright = config.lib.nixvim.emptyTable;
+          basedpyright = config.lib.nixvim.emptyTable;
           ruff = config.lib.nixvim.emptyTable;
           zls = config.lib.nixvim.emptyTable;
           clangd = config.lib.nixvim.emptyTable;
